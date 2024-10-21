@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+button {
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
